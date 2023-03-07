@@ -1,0 +1,17 @@
+// import config
+@import "./utils/config";
+
+body {
+  // light theme
+  &.light {
+    @import "./utils/light";
+    @import "./utils/style";
+    @import "./components/footer";
+  }
+  // dark theme
+  &.dark {
+    @import "./utils/dark";
+    @import "./utils/style";
+    @import "./components/footer";
+  }
+}

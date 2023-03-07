@@ -1,0 +1,43 @@
+// ## Colors
+
+// ### Primary
+
+$cl-LimeGreen: hsl(163, 72%, 41%);
+$cl-BrightRed: hsl(356, 69%, 56%);
+
+$cl-Facebook: hsl(208, 92%, 53%);
+$cl-Twitter: hsl(203, 89%, 53%);
+$gr-Instagram: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+$cl-YouTube: hsl(348, 97%, 39%);
+
+// #### Dark Theme Toggle
+
+$gr-light-Toggle: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+
+// #### Light Theme Toggle
+
+$cl-dark-Toggle: hsl(230, 22%, 74%);
+
+// ### Neutral
+
+// #### Dark Theme
+
+$cl-dark-VeryDarkBlue: hsl(230, 17%, 14%); // BG
+$cl-dark-VeryDarkBlue: hsl(232, 19%, 15%); // Top BG Pattern
+$cl-dark-DarkDesaturatedBlue: hsl(228, 28%, 20%); // Card BG
+$cl-dark-DesaturatedBlue: hsl(228, 34%, 66%); // Text
+$cl-dark-White: hsl(0, 0%, 100%); // Text
+
+// #### Light Theme
+$cl-light-White: hsl(0, 0%, 100%); //BG
+$cl-light-VeryPaleBlue: hsl(225, 100%, 98%); //Top BG Pattern
+$cl-light-LightGrayishBlue: hsl(227, 47%, 96%); // Card BG
+$cl-light-DarkGrayishBlue: hsl(228, 12%, 44%); // Text
+$cl-light-VeryDarkBlue: hsl(230, 17%, 14%); // Text
+
+// other variables
+$radius-1: 5px;
+$radius-2: 10px;
+$radius-3: 25px;
+$radius-4: 75px;
+$transition: all 250ms linear;

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+a,
+button {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+body.light {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+}
+body.light footer {
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: hsl(227, 47%, 96%);
+  color: hsl(228, 12%, 44%);
+  padding: 0.2rem 0.5rem;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+body.light .attribution a {
+  font-weight: bold;
+  color: hsl(230, 17%, 14%);
+  transition: all 250ms linear;
+  padding: 0 0.2rem;
+}
+body.light .attribution a:hover {
+  color: black;
+}
+body.dark {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: hsl(232, 19%, 15%);
+}
+body.dark footer {
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: hsl(228, 28%, 20%);
+  color: hsl(228, 34%, 66%);
+  padding: 0.2rem 0.5rem;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+body.dark .attribution a {
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+  transition: all 250ms linear;
+  padding: 0 0.2rem;
+}
+body.dark .attribution a:hover {
+  color: #cccccc;
+}
