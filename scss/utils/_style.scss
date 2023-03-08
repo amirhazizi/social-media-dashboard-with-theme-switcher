@@ -13,7 +13,7 @@ p {
 }
 // main
 main {
-  width: min(90vw, 1140px);
+  width: min(90vw, 1100px);
   margin: 4rem auto;
 }
 
@@ -76,7 +76,7 @@ main {
 // big card
 .big-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 2rem;
   margin-bottom: 2.5rem;
   #Bigcard {
@@ -178,12 +178,14 @@ main {
       .scard-log {
         display: flex;
         justify-content: space-between;
+        align-items: end;
         h3 {
           font-size: 2.1rem;
           color: $cl-Text-2;
         }
         &-text {
           @extend #cardLog;
+          margin-bottom: 0.2rem;
           p {
             font-size: 0.85rem;
           }

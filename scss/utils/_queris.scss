@@ -1,4 +1,7 @@
 @media (min-width: 768px) {
+  main {
+    margin: 0 auto;
+  }
   .header {
     display: flex;
     justify-content: space-between;
