@@ -52,10 +52,12 @@ main {
         top: 0%;
         right: 0%;
         transition: all 250ms ease-in-out;
+        box-shadow: inset 8px 0px 0px 0px black;
       }
       .theme-switcher:checked + .slide {
         transform: translate(-120%, 12%);
         background: $cl-BG;
+        box-shadow: none;
       }
     }
   }
