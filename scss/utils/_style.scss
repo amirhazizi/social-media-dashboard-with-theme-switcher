@@ -48,13 +48,13 @@ main {
         background: $cl-BG;
         border-radius: $radius-3;
         position: absolute;
-        transform: translate(-20%, 10%);
+        transform: translate(-20%, 12%);
         top: 0%;
         right: 0%;
         transition: all 250ms ease-in-out;
       }
       .theme-switcher:checked + .slide {
-        transform: translate(-120%, 10%);
+        transform: translate(-120%, 12%);
         background: $cl-BG;
       }
     }
@@ -97,6 +97,7 @@ main {
       text-align: center;
       h1 {
         font-size: 4.5rem;
+        color: $cl-Text-2;
       }
       p {
         letter-spacing: 0.4rem;
@@ -179,6 +180,7 @@ main {
         justify-content: space-between;
         h3 {
           font-size: 2.1rem;
+          color: $cl-Text-2;
         }
         &-text {
           @extend #cardLog;
