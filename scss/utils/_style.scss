@@ -1,6 +1,141 @@
+// global
+p {
+  color: $cl-Text-1;
+  font-weight: 700;
+}
+
+// body
 & {
   display: grid;
   place-items: center;
   min-height: 100vh;
   background-color: $cl-BG;
+}
+// main
+main {
+  width: min(90vw, 1300px);
+  margin: 0 auto;
+}
+
+// header
+.header {
+  &-text {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $cl-Text-1;
+    h1 {
+      font-size: 1.8rem;
+      color: $cl-Text-2;
+    }
+  }
+  &-theme {
+    padding: 1rem 0 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .switch-toggle {
+      width: 3.4rem;
+      height: 1.8rem;
+      border-radius: $radius-3;
+      background: $cl-toggle;
+      position: relative;
+      .theme-switcher {
+        position: absolute;
+        display: none;
+      }
+      .slide {
+        width: 1.4rem;
+        height: 1.4rem;
+        background: $cl-BG;
+        border-radius: $radius-3;
+        position: absolute;
+        transform: translate(-20%, 10%);
+        top: 0%;
+        right: 0%;
+        transition: all 250ms ease-in-out;
+      }
+      .theme-switcher:checked + .slide {
+        transform: translate(-120%, 10%);
+        background: $cl-BG;
+      }
+    }
+  }
+}
+
+// big card
+.big-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  #Bigcard {
+    position: relative;
+    background: $cl-CardBG;
+    display: grid;
+    justify-items: center;
+    border-radius: $radius-1;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    .card-social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .card-header {
+      text-align: center;
+      h1 {
+        font-size: 4.5rem;
+      }
+      p {
+        letter-spacing: 0.4rem;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+    }
+    .card-log {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.35rem;
+      .green {
+        color: $cl-LimeGreen;
+      }
+      .red {
+        color: $cl-BrightRed;
+      }
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      height: 0.35rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(-50%);
+      border-radius: $radius-4 $radius-4 0 0;
+    }
+  }
+  .card-1 {
+    @extend #Bigcard;
+    &::after {
+      background: $cl-Facebook;
+    }
+  }
+  .card-2 {
+    @extend #Bigcard;
+    &::after {
+      background: $cl-Twitter;
+    }
+  }
+  .card-3 {
+    @extend #Bigcard;
+    &::after {
+      background: $gr-Instagram;
+    }
+  }
+  .card-4 {
+    @extend #Bigcard;
+    &::after {
+      background: $cl-YouTube;
+    }
+  }
 }
