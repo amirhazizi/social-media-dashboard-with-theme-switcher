@@ -20,7 +20,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Live Site
 
-[Click Here](https://startling-choux-f33010.netlify.app/)
+[Click Here](https://peaceful-kangaroo-d88212.netlify.app/)
 
 ### Built with
 
