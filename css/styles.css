@@ -61,6 +61,7 @@ body.light .header-theme .switch-toggle {
   border-radius: 25px;
   background: hsl(230, 22%, 74%);
   position: relative;
+  cursor: pointer;
 }
 body.light .header-theme .switch-toggle .theme-switcher {
   position: absolute;
@@ -75,7 +76,7 @@ body.light .header-theme .switch-toggle .slide {
   transform: translate(-20%, 12%);
   top: 0%;
   right: 0%;
-  transition: all 250ms ease-in-out;
+  transition: all 250ms linear;
   box-shadow: inset 8px 0px 0px 0px black;
 }
 body.light .header-theme .switch-toggle .theme-switcher:checked + .slide {
@@ -109,6 +110,8 @@ body.light .big-cards #Bigcard, body.light body.dark .big-cards .card-4, body.da
   border-radius: 5px;
   gap: 1.5rem;
   padding: 2rem 0;
+  transition: all 250ms linear;
+  cursor: pointer;
 }
 body.light .big-cards #Bigcard .card-social, body.light body.dark .big-cards .card-4 .card-social, body.dark body.light .big-cards .card-4 .card-social, body.light body.dark .big-cards .card-3 .card-social, body.dark body.light .big-cards .card-3 .card-social, body.light body.dark .big-cards .card-2 .card-social, body.dark body.light .big-cards .card-2 .card-social, body.light body.dark .big-cards .card-1 .card-social, body.dark body.light .big-cards .card-1 .card-social, body.light .big-cards .card-4 .card-social, body.light .big-cards .card-3 .card-social, body.light .big-cards .card-2 .card-social, body.light .big-cards .card-1 .card-social {
   display: flex;
@@ -137,6 +140,10 @@ body.light .big-cards #Bigcard::after, body.light body.dark .big-cards .card-4::
   left: 0;
   transform: translateY(-50%);
   border-radius: 75px 75px 0 0;
+}
+body.light .big-cards #Bigcard:hover, body.light body.dark .big-cards .card-4:hover, body.dark body.light .big-cards .card-4:hover, body.light body.dark .big-cards .card-3:hover, body.dark body.light .big-cards .card-3:hover, body.light body.dark .big-cards .card-2:hover, body.dark body.light .big-cards .card-2:hover, body.light body.dark .big-cards .card-1:hover, body.dark body.light .big-cards .card-1:hover, body.light .big-cards .card-4:hover, body.light .big-cards .card-3:hover, body.light .big-cards .card-2:hover, body.light .big-cards .card-1:hover {
+  background: #e6e6e6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 body.light .big-cards .card-1::after {
   background: hsl(208, 92%, 53%);
@@ -171,6 +178,12 @@ body.light .small-cards-container #scard, body.light body.dark .small-cards-cont
   border-radius: 5px;
   gap: 1.5rem;
   padding: 1.5rem 1.7rem;
+  transition: all 250ms linear;
+  cursor: pointer;
+}
+body.light .small-cards-container #scard:hover, body.light body.dark .small-cards-container .scard-8:hover, body.dark body.light .small-cards-container .scard-8:hover, body.light body.dark .small-cards-container .scard-7:hover, body.dark body.light .small-cards-container .scard-7:hover, body.light body.dark .small-cards-container .scard-6:hover, body.dark body.light .small-cards-container .scard-6:hover, body.light body.dark .small-cards-container .scard-5:hover, body.dark body.light .small-cards-container .scard-5:hover, body.light body.dark .small-cards-container .scard-4:hover, body.dark body.light .small-cards-container .scard-4:hover, body.light body.dark .small-cards-container .scard-3:hover, body.dark body.light .small-cards-container .scard-3:hover, body.light body.dark .small-cards-container .scard-2:hover, body.dark body.light .small-cards-container .scard-2:hover, body.light body.dark .small-cards-container .scard-1:hover, body.dark body.light .small-cards-container .scard-1:hover, body.light .small-cards-container .scard-8:hover, body.light .small-cards-container .scard-7:hover, body.light .small-cards-container .scard-6:hover, body.light .small-cards-container .scard-5:hover, body.light .small-cards-container .scard-4:hover, body.light .small-cards-container .scard-3:hover, body.light .small-cards-container .scard-2:hover, body.light .small-cards-container .scard-1:hover {
+  background: #e6e6e6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 body.light .small-cards-container #scard .scard-text, body.light body.dark .small-cards-container .scard-8 .scard-text, body.dark body.light .small-cards-container .scard-8 .scard-text, body.light body.dark .small-cards-container .scard-7 .scard-text, body.dark body.light .small-cards-container .scard-7 .scard-text, body.light body.dark .small-cards-container .scard-6 .scard-text, body.dark body.light .small-cards-container .scard-6 .scard-text, body.light body.dark .small-cards-container .scard-5 .scard-text, body.dark body.light .small-cards-container .scard-5 .scard-text, body.light body.dark .small-cards-container .scard-4 .scard-text, body.dark body.light .small-cards-container .scard-4 .scard-text, body.light body.dark .small-cards-container .scard-3 .scard-text, body.dark body.light .small-cards-container .scard-3 .scard-text, body.light body.dark .small-cards-container .scard-2 .scard-text, body.dark body.light .small-cards-container .scard-2 .scard-text, body.light body.dark .small-cards-container .scard-1 .scard-text, body.dark body.light .small-cards-container .scard-1 .scard-text, body.light .small-cards-container .scard-8 .scard-text, body.light .small-cards-container .scard-7 .scard-text, body.light .small-cards-container .scard-6 .scard-text, body.light .small-cards-container .scard-5 .scard-text, body.light .small-cards-container .scard-4 .scard-text, body.light .small-cards-container .scard-3 .scard-text, body.light .small-cards-container .scard-2 .scard-text, body.light .small-cards-container .scard-1 .scard-text {
   display: flex;
@@ -196,21 +209,6 @@ body.light .small-cards-container #scard .scard-log-text, body.light body.dark .
 body.light .small-cards-container #scard .scard-log-text p, body.light body.dark .small-cards-container .scard-8 .scard-log-text p, body.dark body.light .small-cards-container .scard-8 .scard-log-text p, body.light body.dark .small-cards-container .scard-7 .scard-log-text p, body.dark body.light .small-cards-container .scard-7 .scard-log-text p, body.light body.dark .small-cards-container .scard-6 .scard-log-text p, body.dark body.light .small-cards-container .scard-6 .scard-log-text p, body.light body.dark .small-cards-container .scard-5 .scard-log-text p, body.dark body.light .small-cards-container .scard-5 .scard-log-text p, body.light body.dark .small-cards-container .scard-4 .scard-log-text p, body.dark body.light .small-cards-container .scard-4 .scard-log-text p, body.light body.dark .small-cards-container .scard-3 .scard-log-text p, body.dark body.light .small-cards-container .scard-3 .scard-log-text p, body.light body.dark .small-cards-container .scard-2 .scard-log-text p, body.dark body.light .small-cards-container .scard-2 .scard-log-text p, body.light body.dark .small-cards-container .scard-1 .scard-log-text p, body.dark body.light .small-cards-container .scard-1 .scard-log-text p, body.light .small-cards-container .scard-8 .scard-log-text p, body.light .small-cards-container .scard-7 .scard-log-text p, body.light .small-cards-container .scard-6 .scard-log-text p, body.light .small-cards-container .scard-5 .scard-log-text p, body.light .small-cards-container .scard-4 .scard-log-text p, body.light .small-cards-container .scard-3 .scard-log-text p, body.light .small-cards-container .scard-2 .scard-log-text p, body.light .small-cards-container .scard-1 .scard-log-text p {
   font-size: 0.85rem;
 }
-@media (min-width: 768px) {
-  body.light main {
-    margin: 0 auto;
-  }
-  body.light .header {
-    display: flex;
-    justify-content: space-between;
-  }
-  body.light .header-text {
-    border: none;
-  }
-  body.light .header-theme {
-    gap: 1rem;
-  }
-}
 body.light footer {
   position: fixed;
   bottom: 0%;
@@ -231,6 +229,21 @@ body.light .attribution a {
 }
 body.light .attribution a:hover {
   color: black;
+}
+@media (min-width: 768px) {
+  body.light main {
+    margin: 0 auto;
+  }
+  body.light .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.light .header-text {
+    border: none;
+  }
+  body.light .header-theme {
+    gap: 1rem;
+  }
 }
 body.dark p {
   color: hsl(228, 34%, 66%);
@@ -266,6 +279,7 @@ body.dark .header-theme .switch-toggle {
   border-radius: 25px;
   background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   position: relative;
+  cursor: pointer;
 }
 body.dark .header-theme .switch-toggle .theme-switcher {
   position: absolute;
@@ -280,7 +294,7 @@ body.dark .header-theme .switch-toggle .slide {
   transform: translate(-20%, 12%);
   top: 0%;
   right: 0%;
-  transition: all 250ms ease-in-out;
+  transition: all 250ms linear;
   box-shadow: inset 8px 0px 0px 0px black;
 }
 body.dark .header-theme .switch-toggle .theme-switcher:checked + .slide {
@@ -314,6 +328,8 @@ body.dark .big-cards #Bigcard, body.dark .big-cards .card-4, body.dark .big-card
   border-radius: 5px;
   gap: 1.5rem;
   padding: 2rem 0;
+  transition: all 250ms linear;
+  cursor: pointer;
 }
 body.dark .big-cards #Bigcard .card-social, body.dark .big-cards .card-4 .card-social, body.dark .big-cards .card-3 .card-social, body.dark .big-cards .card-2 .card-social, body.dark .big-cards .card-1 .card-social, body.dark body.light .big-cards .card-1 .card-social, body.light body.dark .big-cards .card-1 .card-social, body.dark body.light .big-cards .card-2 .card-social, body.light body.dark .big-cards .card-2 .card-social, body.dark body.light .big-cards .card-3 .card-social, body.light body.dark .big-cards .card-3 .card-social, body.dark body.light .big-cards .card-4 .card-social, body.light body.dark .big-cards .card-4 .card-social {
   display: flex;
@@ -342,6 +358,10 @@ body.dark .big-cards #Bigcard::after, body.dark .big-cards .card-4::after, body.
   left: 0;
   transform: translateY(-50%);
   border-radius: 75px 75px 0 0;
+}
+body.dark .big-cards #Bigcard:hover, body.dark .big-cards .card-4:hover, body.dark .big-cards .card-3:hover, body.dark .big-cards .card-2:hover, body.dark .big-cards .card-1:hover, body.dark body.light .big-cards .card-1:hover, body.light body.dark .big-cards .card-1:hover, body.dark body.light .big-cards .card-2:hover, body.light body.dark .big-cards .card-2:hover, body.dark body.light .big-cards .card-3:hover, body.light body.dark .big-cards .card-3:hover, body.dark body.light .big-cards .card-4:hover, body.light body.dark .big-cards .card-4:hover {
+  background: #0a0b0f;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 body.dark .big-cards .card-1::after {
   background: hsl(208, 92%, 53%);
@@ -376,6 +396,12 @@ body.dark .small-cards-container #scard, body.dark .small-cards-container .scard
   border-radius: 5px;
   gap: 1.5rem;
   padding: 1.5rem 1.7rem;
+  transition: all 250ms linear;
+  cursor: pointer;
+}
+body.dark .small-cards-container #scard:hover, body.dark .small-cards-container .scard-8:hover, body.dark .small-cards-container .scard-7:hover, body.dark .small-cards-container .scard-6:hover, body.dark .small-cards-container .scard-5:hover, body.dark .small-cards-container .scard-4:hover, body.dark .small-cards-container .scard-3:hover, body.dark .small-cards-container .scard-2:hover, body.dark .small-cards-container .scard-1:hover, body.dark body.light .small-cards-container .scard-1:hover, body.light body.dark .small-cards-container .scard-1:hover, body.dark body.light .small-cards-container .scard-2:hover, body.light body.dark .small-cards-container .scard-2:hover, body.dark body.light .small-cards-container .scard-3:hover, body.light body.dark .small-cards-container .scard-3:hover, body.dark body.light .small-cards-container .scard-4:hover, body.light body.dark .small-cards-container .scard-4:hover, body.dark body.light .small-cards-container .scard-5:hover, body.light body.dark .small-cards-container .scard-5:hover, body.dark body.light .small-cards-container .scard-6:hover, body.light body.dark .small-cards-container .scard-6:hover, body.dark body.light .small-cards-container .scard-7:hover, body.light body.dark .small-cards-container .scard-7:hover, body.dark body.light .small-cards-container .scard-8:hover, body.light body.dark .small-cards-container .scard-8:hover {
+  background: #0a0b0f;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 body.dark .small-cards-container #scard .scard-text, body.dark .small-cards-container .scard-8 .scard-text, body.dark .small-cards-container .scard-7 .scard-text, body.dark .small-cards-container .scard-6 .scard-text, body.dark .small-cards-container .scard-5 .scard-text, body.dark .small-cards-container .scard-4 .scard-text, body.dark .small-cards-container .scard-3 .scard-text, body.dark .small-cards-container .scard-2 .scard-text, body.dark .small-cards-container .scard-1 .scard-text, body.dark body.light .small-cards-container .scard-1 .scard-text, body.light body.dark .small-cards-container .scard-1 .scard-text, body.dark body.light .small-cards-container .scard-2 .scard-text, body.light body.dark .small-cards-container .scard-2 .scard-text, body.dark body.light .small-cards-container .scard-3 .scard-text, body.light body.dark .small-cards-container .scard-3 .scard-text, body.dark body.light .small-cards-container .scard-4 .scard-text, body.light body.dark .small-cards-container .scard-4 .scard-text, body.dark body.light .small-cards-container .scard-5 .scard-text, body.light body.dark .small-cards-container .scard-5 .scard-text, body.dark body.light .small-cards-container .scard-6 .scard-text, body.light body.dark .small-cards-container .scard-6 .scard-text, body.dark body.light .small-cards-container .scard-7 .scard-text, body.light body.dark .small-cards-container .scard-7 .scard-text, body.dark body.light .small-cards-container .scard-8 .scard-text, body.light body.dark .small-cards-container .scard-8 .scard-text {
   display: flex;
@@ -401,21 +427,6 @@ body.dark .small-cards-container #scard .scard-log-text, body.dark .small-cards-
 body.dark .small-cards-container #scard .scard-log-text p, body.dark .small-cards-container .scard-8 .scard-log-text p, body.dark .small-cards-container .scard-7 .scard-log-text p, body.dark .small-cards-container .scard-6 .scard-log-text p, body.dark .small-cards-container .scard-5 .scard-log-text p, body.dark .small-cards-container .scard-4 .scard-log-text p, body.dark .small-cards-container .scard-3 .scard-log-text p, body.dark .small-cards-container .scard-2 .scard-log-text p, body.dark .small-cards-container .scard-1 .scard-log-text p, body.dark body.light .small-cards-container .scard-1 .scard-log-text p, body.light body.dark .small-cards-container .scard-1 .scard-log-text p, body.dark body.light .small-cards-container .scard-2 .scard-log-text p, body.light body.dark .small-cards-container .scard-2 .scard-log-text p, body.dark body.light .small-cards-container .scard-3 .scard-log-text p, body.light body.dark .small-cards-container .scard-3 .scard-log-text p, body.dark body.light .small-cards-container .scard-4 .scard-log-text p, body.light body.dark .small-cards-container .scard-4 .scard-log-text p, body.dark body.light .small-cards-container .scard-5 .scard-log-text p, body.light body.dark .small-cards-container .scard-5 .scard-log-text p, body.dark body.light .small-cards-container .scard-6 .scard-log-text p, body.light body.dark .small-cards-container .scard-6 .scard-log-text p, body.dark body.light .small-cards-container .scard-7 .scard-log-text p, body.light body.dark .small-cards-container .scard-7 .scard-log-text p, body.dark body.light .small-cards-container .scard-8 .scard-log-text p, body.light body.dark .small-cards-container .scard-8 .scard-log-text p {
   font-size: 0.85rem;
 }
-@media (min-width: 768px) {
-  body.dark main {
-    margin: 0 auto;
-  }
-  body.dark .header {
-    display: flex;
-    justify-content: space-between;
-  }
-  body.dark .header-text {
-    border: none;
-  }
-  body.dark .header-theme {
-    gap: 1rem;
-  }
-}
 body.dark footer {
   position: fixed;
   bottom: 0%;
@@ -436,4 +447,19 @@ body.dark .attribution a {
 }
 body.dark .attribution a:hover {
   color: #cccccc;
+}
+@media (min-width: 768px) {
+  body.dark main {
+    margin: 0 auto;
+  }
+  body.dark .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.dark .header-text {
+    border: none;
+  }
+  body.dark .header-theme {
+    gap: 1rem;
+  }
 }
