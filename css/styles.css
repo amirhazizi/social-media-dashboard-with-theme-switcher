@@ -183,10 +183,22 @@ body.light .small-cards-container #scard .scard-log, body.light body.dark .small
   justify-content: space-between;
 }
 body.light .small-cards-container #scard .scard-log h3, body.light body.dark .small-cards-container .scard-8 .scard-log h3, body.dark body.light .small-cards-container .scard-8 .scard-log h3, body.light body.dark .small-cards-container .scard-7 .scard-log h3, body.dark body.light .small-cards-container .scard-7 .scard-log h3, body.light body.dark .small-cards-container .scard-6 .scard-log h3, body.dark body.light .small-cards-container .scard-6 .scard-log h3, body.light body.dark .small-cards-container .scard-5 .scard-log h3, body.dark body.light .small-cards-container .scard-5 .scard-log h3, body.light body.dark .small-cards-container .scard-4 .scard-log h3, body.dark body.light .small-cards-container .scard-4 .scard-log h3, body.light body.dark .small-cards-container .scard-3 .scard-log h3, body.dark body.light .small-cards-container .scard-3 .scard-log h3, body.light body.dark .small-cards-container .scard-2 .scard-log h3, body.dark body.light .small-cards-container .scard-2 .scard-log h3, body.light body.dark .small-cards-container .scard-1 .scard-log h3, body.dark body.light .small-cards-container .scard-1 .scard-log h3, body.light .small-cards-container .scard-8 .scard-log h3, body.light .small-cards-container .scard-7 .scard-log h3, body.light .small-cards-container .scard-6 .scard-log h3, body.light .small-cards-container .scard-5 .scard-log h3, body.light .small-cards-container .scard-4 .scard-log h3, body.light .small-cards-container .scard-3 .scard-log h3, body.light .small-cards-container .scard-2 .scard-log h3, body.light .small-cards-container .scard-1 .scard-log h3 {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 body.light .small-cards-container #scard .scard-log-text p, body.light body.dark .small-cards-container .scard-8 .scard-log-text p, body.dark body.light .small-cards-container .scard-8 .scard-log-text p, body.light body.dark .small-cards-container .scard-7 .scard-log-text p, body.dark body.light .small-cards-container .scard-7 .scard-log-text p, body.light body.dark .small-cards-container .scard-6 .scard-log-text p, body.dark body.light .small-cards-container .scard-6 .scard-log-text p, body.light body.dark .small-cards-container .scard-5 .scard-log-text p, body.dark body.light .small-cards-container .scard-5 .scard-log-text p, body.light body.dark .small-cards-container .scard-4 .scard-log-text p, body.dark body.light .small-cards-container .scard-4 .scard-log-text p, body.light body.dark .small-cards-container .scard-3 .scard-log-text p, body.dark body.light .small-cards-container .scard-3 .scard-log-text p, body.light body.dark .small-cards-container .scard-2 .scard-log-text p, body.dark body.light .small-cards-container .scard-2 .scard-log-text p, body.light body.dark .small-cards-container .scard-1 .scard-log-text p, body.dark body.light .small-cards-container .scard-1 .scard-log-text p, body.light .small-cards-container .scard-8 .scard-log-text p, body.light .small-cards-container .scard-7 .scard-log-text p, body.light .small-cards-container .scard-6 .scard-log-text p, body.light .small-cards-container .scard-5 .scard-log-text p, body.light .small-cards-container .scard-4 .scard-log-text p, body.light .small-cards-container .scard-3 .scard-log-text p, body.light .small-cards-container .scard-2 .scard-log-text p, body.light .small-cards-container .scard-1 .scard-log-text p {
   font-size: 0.85rem;
+}
+@media (min-width: 768px) {
+  body.light .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.light .header-text {
+    border: none;
+  }
+  body.light .header-theme {
+    gap: 1rem;
+  }
 }
 body.light footer {
   position: fixed;
@@ -365,10 +377,22 @@ body.dark .small-cards-container #scard .scard-log, body.dark .small-cards-conta
   justify-content: space-between;
 }
 body.dark .small-cards-container #scard .scard-log h3, body.dark .small-cards-container .scard-8 .scard-log h3, body.dark .small-cards-container .scard-7 .scard-log h3, body.dark .small-cards-container .scard-6 .scard-log h3, body.dark .small-cards-container .scard-5 .scard-log h3, body.dark .small-cards-container .scard-4 .scard-log h3, body.dark .small-cards-container .scard-3 .scard-log h3, body.dark .small-cards-container .scard-2 .scard-log h3, body.dark .small-cards-container .scard-1 .scard-log h3, body.dark body.light .small-cards-container .scard-1 .scard-log h3, body.light body.dark .small-cards-container .scard-1 .scard-log h3, body.dark body.light .small-cards-container .scard-2 .scard-log h3, body.light body.dark .small-cards-container .scard-2 .scard-log h3, body.dark body.light .small-cards-container .scard-3 .scard-log h3, body.light body.dark .small-cards-container .scard-3 .scard-log h3, body.dark body.light .small-cards-container .scard-4 .scard-log h3, body.light body.dark .small-cards-container .scard-4 .scard-log h3, body.dark body.light .small-cards-container .scard-5 .scard-log h3, body.light body.dark .small-cards-container .scard-5 .scard-log h3, body.dark body.light .small-cards-container .scard-6 .scard-log h3, body.light body.dark .small-cards-container .scard-6 .scard-log h3, body.dark body.light .small-cards-container .scard-7 .scard-log h3, body.light body.dark .small-cards-container .scard-7 .scard-log h3, body.dark body.light .small-cards-container .scard-8 .scard-log h3, body.light body.dark .small-cards-container .scard-8 .scard-log h3 {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 body.dark .small-cards-container #scard .scard-log-text p, body.dark .small-cards-container .scard-8 .scard-log-text p, body.dark .small-cards-container .scard-7 .scard-log-text p, body.dark .small-cards-container .scard-6 .scard-log-text p, body.dark .small-cards-container .scard-5 .scard-log-text p, body.dark .small-cards-container .scard-4 .scard-log-text p, body.dark .small-cards-container .scard-3 .scard-log-text p, body.dark .small-cards-container .scard-2 .scard-log-text p, body.dark .small-cards-container .scard-1 .scard-log-text p, body.dark body.light .small-cards-container .scard-1 .scard-log-text p, body.light body.dark .small-cards-container .scard-1 .scard-log-text p, body.dark body.light .small-cards-container .scard-2 .scard-log-text p, body.light body.dark .small-cards-container .scard-2 .scard-log-text p, body.dark body.light .small-cards-container .scard-3 .scard-log-text p, body.light body.dark .small-cards-container .scard-3 .scard-log-text p, body.dark body.light .small-cards-container .scard-4 .scard-log-text p, body.light body.dark .small-cards-container .scard-4 .scard-log-text p, body.dark body.light .small-cards-container .scard-5 .scard-log-text p, body.light body.dark .small-cards-container .scard-5 .scard-log-text p, body.dark body.light .small-cards-container .scard-6 .scard-log-text p, body.light body.dark .small-cards-container .scard-6 .scard-log-text p, body.dark body.light .small-cards-container .scard-7 .scard-log-text p, body.light body.dark .small-cards-container .scard-7 .scard-log-text p, body.dark body.light .small-cards-container .scard-8 .scard-log-text p, body.light body.dark .small-cards-container .scard-8 .scard-log-text p {
   font-size: 0.85rem;
+}
+@media (min-width: 768px) {
+  body.dark .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  body.dark .header-text {
+    border: none;
+  }
+  body.dark .header-theme {
+    gap: 1rem;
+  }
 }
 body.dark footer {
   position: fixed;
